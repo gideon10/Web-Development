@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", Courier, monospace	
+}
+
+@font-face {
+    font-family: digital;
+    src: url('digital.ttf');
+}
+
+.header {
+    height: 50px;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+html, body {
+    height: 94%;
+}
+
+.main {
+    height: 96%;
+    background-color: rgba(29, 185, 209, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    background-color: seagreen;
+    height: 200px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: digital;
+    font-size: 150px;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgb(0,0,0);
+}
